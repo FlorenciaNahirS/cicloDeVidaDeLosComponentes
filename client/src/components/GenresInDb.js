@@ -26,7 +26,7 @@ export default class GenresInDb extends Component {
 
     render() {
         return (
-            <div className="col-lg-6 mb-4">						
+            <div className="col-lg-12">						
                     <div className="card shadow mb-4" >
                         <div className="card-header py-3">
                             <h6 className="m-0 font-weight-bold text-gray-800"  onMouseOver={()=>this.handleChangeBg()}>Genres in Data Base</h6>
